@@ -1,0 +1,187 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+body{
+	background-color: #eeeeee;
+}
+
+/*header*/
+
+#header{
+	background-color: white;
+}
+
+#header::after{
+	content: " ";
+	clear: both;
+	display: block;
+
+}
+
+
+.container{
+margin: 0 auto;
+max-width: 1100px;
+
+}
+
+.logo{
+	float: left;
+	margin-top: 15px;
+	margin-left: 30px;
+
+	transition: 1s;
+
+}
+
+.logo:hover{
+	image-rendering: pixelated;
+	transform: rotate(180deg);
+	transition: 1s;
+	transition-timing-function: ease-out;
+}
+
+.header-nav{
+	float: right;
+
+}
+
+.header-nav ul{
+	margin-bottom: 0px;
+}
+
+
+.header-nav ul li{
+	display: inline-block;
+}
+
+.header-nav ul li a{
+	padding: 10px 30px;
+	text-decoration: none;
+	color: black;
+	line-height: 68.67px;
+	transition: 1s;
+
+}
+
+.header-nav ul li a:hover{
+	color: red;
+	font-size: 18px;
+	transition: 0.4s;
+}
+
+/*content*/
+
+
+img{
+	display: block;
+}
+
+p{
+	margin-bottom: 20px;
+}
+
+h2{
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+
+.s-content{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: white;
+	max-width: 70%;
+	float: left;
+	transition: 1s;
+	height: 700px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px #ccc;
+}
+
+
+.a-top-a{
+	padding:30px;
+
+}
+
+
+/*right div float*/
+
+.aside-bar{
+	max-width: 25%;
+	float: right;
+	width: 25%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-right: 10px;
+
+}
+
+.aside-bar div{
+	background-color:  #BED1CD;
+	padding: 30px;
+	margin-top: 20px;
+	transition: 1s;
+	border-radius: 10px;
+}
+
+#asidebar1{
+	height: 400px;
+	box-shadow: 10px 10px 5px #ccc;
+}
+
+#asidebar2{
+	height: 140px;
+	box-shadow: 10px 10px 5px #ccc;
+}
+
+.aside-bar div li a{
+	text-decoration: none;
+	color: black;
+	
+}
+
+.aside-bar div ul{
+	list-style: none;
+}
+
+.aside-bar div li a:hover{
+	color: red;
+}
+
+
+/*content 2*/
+
+.content2{
+	clear: both;
+	background-color: #333333;
+	color: #ebe6e6;
+	padding: 30px;
+	max-width: 100%;
+	margin-bottom: 10px;
+	height: 600px;
+	box-shadow: 10px 10px 5px #ccc;
+}
+
+.content3{
+	background-color: white;
+	padding: 30px;
+	max-width: 100%;
+	margin-bottom: 20px;
+	height: 600px;
+	box-shadow: 10px 10px 5px #ccc;
+}
+
+/*footer*/
+
+#footer{
+	background-color: #4d4d4d;
+	text-align: center;
+	padding: 20px;
+	color: #eeeeee;
+}

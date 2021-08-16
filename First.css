@@ -1,0 +1,130 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		clear: both;
+		float: none;
+		margin-left: 0;
+		margin-left: 0;
+		width: 100%;
+	#contentcolumn{
+	#leftcolumn{
+	background-color: black;
+	background-color: black;
+	background-color: black;=
+	background-color: red;
+	background-color:black;
+	background: black;
+	border-right: 1px solid black;
+	border-right: none;
+	clear: both;
+	clear: left;
+	color: cyan;
+	color: gray;
+	color: gray;
+	color: white;
+	color: white;
+	display: block;
+	float: left;
+	float: left;
+	float: left;
+	float: left;
+	float: none;
+	font-family: arial;
+	font-family: arial;
+	font-family: arial;
+	height: 100px;
+	line-height: 1.5em; /* this will set default line spacing to the texts*/
+	list-style: none;
+	margin-left: -100%;
+	margin-left: -100%;
+	margin-left: -240px;
+	margin-left: 0;
+	margin-right: 0;
+	margin: 0 230px 0 230px;
+	margin: 0;
+	margin: 0; /* this will set the whole website body to zero margin and padding to make sure theres no space around the perimiter of the content*/
+	margin: 20px;
+	padding: 0;
+	padding: 0;
+	padding: 14px 16px;
+	padding: 4px;
+	text-align-last: center;
+	text-align: center;
+	text-decoration: none;
+	width: 100%
+	width: 100%
+	width: 100%;
+	width: 230px;
+	width: 230px;
+	}
+	}
+ }
+#contentcolumn{
+#contentcolumn{
+#contentwrapper{
+#footer{
+#header{
+#leftcolumn{
+#leftcolum{
+#rightcolumn{
+#rightcolumn{
+.active{
+.innertext{
+/*responsive right layout*/
+/*this will be the navigation on the header*/
+@media (max-width: 600px) {
+@media (max-width: 840px) { /*when dropping right column down*/
+body{
+li a:hover:not(active){
+li a{
+li:last-child{
+li{
+ul{
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
